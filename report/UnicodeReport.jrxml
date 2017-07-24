@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="UnicodeReport" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="30" bottomMargin="30" uuid="9df06543-a919-4db2-9dcd-ed4c8a66dec7">
+	<style name="label" fontName="DejaVu Sans" fontSize="14"/>
+	<style name="noto" fontName="Noto" fontSize="14" vTextAlign="Middle"/>
+	<summary>
+		<band height="630" splitType="Immediate">
+			<frame>
+				<reportElement positionType="Float" x="0" y="10" width="520" height="30" uuid="75d0ac93-66cb-450c-8873-08a40e73bec4"/>
+				<staticText>
+					<reportElement style="label" x="0" y="0" width="100" height="30" uuid="b61ce75e-afaf-414d-a562-cbd2566dff72"/>
+					<textElement verticalAlignment="Middle"/>
+					<text><![CDATA[Hindi]]></text>
+				</staticText>
+				<textField isStretchWithOverflow="true">
+					<reportElement style="noto" x="120" y="0" width="400" height="30" uuid="e56fa8fd-ab2e-47df-a35f-7e1bb61dd9c3"/>
+					<textFieldExpression><![CDATA["एक पल का क्रोध आपका भविष्य बिगाड़ सकता है"]]></textFieldExpression>
+				</textField>
+			</frame>
+			<frame>
+				<reportElement positionType="Float" x="0" y="210" width="520" height="30" uuid="6fee375c-533e-4a17-a90c-fec2a053a3b4"/>
+				<staticText>
+					<reportElement style="label" x="0" y="0" width="100" height="30" uuid="8636303d-2711-45f2-b1b9-b353455a926e"/>
+					<textElement verticalAlignment="Middle"/>
+					<text><![CDATA[Gujarati]]></text>
+				</staticText>
+				<textField isStretchWithOverflow="true">
+					<reportElement style="noto" x="120" y="0" width="400" height="30" uuid="2da9c9f3-7894-48e4-8b7a-cac181f43d63"/>
+					<textFieldExpression><![CDATA["આજ દિવાળી, કાલ દિવાળી, ગામનાં છોકરાં ખાય સુંવાળી, મેઘ મેઘ રાજા"]]></textFieldExpression>
+				</textField>
+			</frame>
+		</band>
+	</summary>
+</jasperReport>

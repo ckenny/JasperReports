@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<fontFamilies>
+
+	<fontFamily name="Noto Devanagari">
+		<normal>noto/NotoSansDevanagari-Regular.ttf</normal>
+		<pdfEncoding>Identity-H</pdfEncoding>
+		<pdfEmbedded>true</pdfEmbedded>
+	</fontFamily>
+
+	<fontFamily name="Noto Gujarati">
+		<normal>noto/NotoSansGujarati-Regular.ttf</normal>
+		<pdfEncoding>Identity-H</pdfEncoding>
+		<pdfEmbedded>true</pdfEmbedded>
+	</fontFamily>
+
+	<fontSet name="Noto">
+		<family familyName="Noto Devanagari"/>
+		<family familyName="Noto Gujarati"/>
+	</fontSet>
+
+	<fontFamily name="ArialUni">
+		<normal>noto/ARIALUNI.TTF</normal>
+		<pdfEncoding>Identity-H</pdfEncoding>
+		<pdfEmbedded>true</pdfEmbedded>
+	</fontFamily>
+
+</fontFamilies>
